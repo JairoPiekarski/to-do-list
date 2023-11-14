@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header__container">
+            <div class="dark-theme theme-selector"></div>
+            <div class="light-theme theme-selector"></div>
+        </div>
+        <h1 id="title">Minha lista de tarefas</h1>
+    </div>
+
+    <div id="form">
+        <form>
+            <input type="text" class="form__input" placeholder="Minha tarefa">
+            <button class="form__btn" type="submit">Adicionar!</button>
+        </form>
+    </div>
+
+    <div>
+        <p><span id="date-time"></span></p>
+    </div>
+
+    <div id="myList">
+        <ul class="todo-list">
+            <!-- <div class="todo">
+                <li>Tarefa adicionada</li>
+                <button class="delete-btn"></button>
+                <button class="check-btn"></button>
+            </div> -->
+        </ul>
+    </div>
+
+    <script src="Js/main.js"></script>
+    
+</body>
+
+</html>
